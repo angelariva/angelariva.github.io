@@ -1,3 +1,3 @@
-# Personal website (Under construction!)
+# Personal website
 
-My personal website, built in `html-css`.
+My personal website, built in `html-css`. Work in progress.
