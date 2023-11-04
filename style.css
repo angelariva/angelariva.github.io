@@ -77,13 +77,17 @@ address {
 /* Responsive styles */
 @media (max-width: 600px) {
     nav a {
-        font-size: 1.2em; /* Larger font size for mobile */
-        padding: 15px 30px; /* Larger padding for touch targets */
+        font-size: 20px; /* Increase font size */
+        padding: 15px 20px; /* Increase padding */
+        margin: 5px; /* Add space around the links */
+        display: block; /* Stack the links instead of inline */
+        text-align: center; /* Center-align the text */
     }
-
-    .contact-buttons a.button {
-        font-size: 1.1em; /* Larger font size for mobile */
-        padding: 12px 25px; /* Larger padding for touch targets */
+    
+    /* Larger buttons for mobile */
+    .button button {
+        font-size: 18px; /* Increase button text size */
+        padding: 15px 25px; /* Increase button padding */
     }
 }
 
