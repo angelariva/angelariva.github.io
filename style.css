@@ -5,27 +5,89 @@
     	padding: 0px;
     	}
 
-/* Style for navigation links */
+/* General body styling */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header and navigation styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 nav a {
-  font-size: 1.2em; /* Adjust size as needed for desktop */
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
 }
 
-/* Style for buttons */
-.button button {
-  font-size: 1em; /* Adjust size as needed for desktop */
-  padding: 10px 15px; /* Adjust padding as needed */
+nav a:hover {
+    color: #0078d7;
 }
 
-/* Media query for mobile devices */
-@media (max-width: 768px) {
-  /* Make navigation links larger on mobile */
-  nav a {
-    font-size: 1.5em; /* Larger font size for mobile */
-  }
-  
-  /* Make buttons larger on mobile */
-  .button button {
-    font-size: 1.2em; /* Larger font size for mobile */
-    padding: 15px 20px; /* Larger padding for mobile */
-  }
+/* Section and content styles */
+section {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+address {
+    font-style: normal;
+    line-height: 2.5;
+}
+
+/* Contact buttons styles */
+.contact-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-buttons a.button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.email {
+    background-color: #007bff;
+    color: white;
+}
+
+.github {
+    background-color: #333;
+    color: white;
+}
+
+.scholar {
+    background-color: #34a853;
+    color: white;
+}
+
+.contact-buttons a.button:hover {
+    border-color: #ddd;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    nav a {
+        font-size: 1.2em; /* Larger font size for mobile */
+        padding: 15px 30px; /* Larger padding for touch targets */
+    }
+
+    .contact-buttons a.button {
+        font-size: 1.1em; /* Larger font size for mobile */
+        padding: 12px 25px; /* Larger padding for touch targets */
+    }
+}
+
+/* Address and icon styling */
+i.fas.fa-map-marker-alt {
+    margin-right: 8px;
 }
