@@ -4,3 +4,18 @@
     	border: 0px solid #73AD21;
     	padding: 0px;
     	}
+
+nav a, .button {
+            padding: 10px 15px; /* Increase padding */
+            font-size: 1.2em; /* Bigger font size */
+        }
+        
+@media (max-width: 768px) {
+        nav a, .button {
+            font-size: 1.5em; /* Even bigger font size on small screens */
+            padding: 15px 20px; /* Larger padding on small screens */
+        }
+        nav {
+            margin-bottom: 20px; /* Add space below the navigation */
+        }
+    }
