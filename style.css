@@ -45,7 +45,7 @@
 @media (max-width: 600px) {
     nav a {
         font-size: 30px; /* Increase font size */
-        padding: 15px 20px; /* Increase padding */
+        padding: 20px 30px; /* Increase padding */
         margin: 5px; /* Add space around the links */
         display: block; /* Stack the links instead of inline */
         text-align: center; /* Center-align the text */
