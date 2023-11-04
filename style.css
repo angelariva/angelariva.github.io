@@ -38,6 +38,7 @@
 
 .contact-buttons a.button:hover {
     border-color: #ddd;
+    color: white;
 }
 
 /* Responsive styles */
