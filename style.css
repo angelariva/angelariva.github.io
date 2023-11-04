@@ -5,17 +5,27 @@
     	padding: 0px;
     	}
 
-nav a, .button {
-            padding: 10px 15px; /* Increase padding */
-            font-size: 1.2em; /* Bigger font size */
-        }
-        
+/* Style for navigation links */
+nav a {
+  font-size: 1.2em; /* Adjust size as needed for desktop */
+}
+
+/* Style for buttons */
+.button button {
+  font-size: 1em; /* Adjust size as needed for desktop */
+  padding: 10px 15px; /* Adjust padding as needed */
+}
+
+/* Media query for mobile devices */
 @media (max-width: 768px) {
-        nav a, .button {
-            font-size: 1.5em; /* Even bigger font size on small screens */
-            padding: 15px 20px; /* Larger padding on small screens */
-        }
-        nav {
-            margin-bottom: 20px; /* Add space below the navigation */
-        }
-    }
+  /* Make navigation links larger on mobile */
+  nav a {
+    font-size: 1.5em; /* Larger font size for mobile */
+  }
+  
+  /* Make buttons larger on mobile */
+  .button button {
+    font-size: 1.2em; /* Larger font size for mobile */
+    padding: 15px 20px; /* Larger padding for mobile */
+  }
+}
