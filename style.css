@@ -49,8 +49,8 @@
 /* Responsive styles */
 @media (max-width: 600px) {
     nav a {
-        font-size: 40px; /* Increase font size */
-        padding: 30px 40px; /* Increase padding */
+        font-size: 70px; /* Increase font size */
+        padding: 60px 80px; /* Increase padding */
         margin: 5px; /* Add space around the links */
         display: block; /* Stack the links instead of inline */
         text-align: center; /* Center-align the text */
@@ -58,8 +58,8 @@
     
     /* Larger buttons for mobile */
     .button button {
-        font-size: 40px; /* Increase button text size */
-        padding: 30px 40px; /* Increase button padding */
+        font-size: 70px; /* Increase button text size */
+        padding: 60px 80px; /* Increase button padding */
     }
 }
 
